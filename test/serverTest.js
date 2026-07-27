@@ -511,7 +511,7 @@ for (const supportedVersion of mc.supportedVersions) {
         })
         client.write('login', loginPacket(client, server))
         const timePacket = version.minecraftVersion === '26.2'
-          ? { gameTime: 1, clockUpdates: [{ id: 0, ticks: 2, partialTick: 0, rate: 1 }] }
+          ? { gameTime: 1, clockUpdates: [{ clock: 0, totalTicks: 2, partialTick: 0, rate: 1 }] }
           : { age: 1, time: 2 }
         client.writeBundle([
           ['update_time', timePacket],
