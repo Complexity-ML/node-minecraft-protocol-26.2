@@ -1,13 +1,14 @@
-# minecraft protocol
-[![NPM version](https://img.shields.io/npm/v/minecraft-protocol.svg)](https://www.npmjs.com/package/minecraft-protocol)
-[![Build Status](https://github.com/PrismarineJS/node-minecraft-protocol/workflows/CI/badge.svg)](https://github.com/PrismarineJS/node-minecraft-protocol/actions?query=workflow%3A%22CI%22)
-[![Discord](https://img.shields.io/badge/chat-on%20discord-brightgreen.svg)](https://discord.gg/GsEFRM8)
-[![Gitter](https://img.shields.io/badge/chat-on%20gitter-brightgreen.svg)](https://gitter.im/PrismarineJS/general)
-[![Irc](https://img.shields.io/badge/chat-on%20irc-brightgreen.svg)](https://irc.gitter.im/)
+# Minecraft Protocol 26.2
 
-[![Try it on gitpod](https://img.shields.io/badge/try-on%20gitpod-brightgreen.svg)](https://gitpod.io/#https://github.com/PrismarineJS/node-minecraft-protocol)
+Independent Complexity-ML distribution for Minecraft Java 26.2 protocol 776.
+It parses and serializes packets and provides client/server authentication,
+encryption and compression for the GAME LAB runtime.
 
-Parse and serialize minecraft packets, plus authentication and encryption.
+Install the immutable release asset:
+
+```bash
+npm install "https://github.com/Complexity-ML/node-minecraft-protocol-26.2/releases/download/complexity-26.2.0/minecraft-protocol-complexity-26.2.0.tgz"
+```
 
 ## Features
 
@@ -18,7 +19,7 @@ Parse and serialize minecraft packets, plus authentication and encryption.
    1.15 (1.15, 1.15.1, 1.15.2), 1.16 (20w13b, 20w14a, 1.16-rc1, 1.16, 1.16.1, 1.16.2, 1.16.3, 1.16.4, 1.16.5),
    1.17 (21w07a, 1.17, 1.17.1), 1.18 (1.18, 1.18.1 and 1.18.2),
    1.19 (1.19, 1.19.1, 1.19.2, 1.19.3, 1.19.4), 1.20 (1.20, 1.20.1, 1.20.2, 1.20.3, 1.20.4, 1.20.5, 1.20.6),
-   1.21, 1.21.1, 1.21.3, 1.21.4, 1.21.5, 1.21.6, 1.21.8, 1.21.9, 1.21.11
+   1.21, 1.21.1, 1.21.3, 1.21.4, 1.21.5, 1.21.6, 1.21.8, 1.21.9, 1.21.11, 26.2
 <!--add_next_version_above-->
 
  * Parses all packets and emits events with packet fields as JavaScript
@@ -42,8 +43,6 @@ Parse and serialize minecraft packets, plus authentication and encryption.
  * Robust test coverage.
  * Optimized for rapidly staying up to date with Minecraft protocol updates.
  
-Want to contribute on something important for PrismarineJS ? go to https://github.com/PrismarineJS/mineflayer/wiki/Big-Prismarine-projects
-
 ## Third Party Plugins
 
 node-minecraft-protocol is pluggable.
@@ -52,7 +51,7 @@ node-minecraft-protocol is pluggable.
 
 ## Projects Using node-minecraft-protocol
 
- * [mineflayer](https://github.com/PrismarineJS/mineflayer/) - Create minecraft
+ * [mineflayer-26.2](https://github.com/Complexity-ML/mineflayer-26.2/) - Create Minecraft 26.2
    bots with a stable, high level API.
  * [mcserve](https://github.com/andrewrk/mcserve) - Runs and monitors your
    minecraft server, provides real-time web interface, allow your users to
@@ -67,7 +66,9 @@ node-minecraft-protocol is pluggable.
 
 ## Installation
 
-`npm install minecraft-protocol`
+```bash
+npm install "https://github.com/Complexity-ML/node-minecraft-protocol-26.2/releases/download/complexity-26.2.0/minecraft-protocol-complexity-26.2.0.tgz"
+```
 
 ## Documentation
 
@@ -217,9 +218,11 @@ set DEBUG=minecraft-protocol
 node your_script.js
 ```
 
-## Contribute
+## Maintenance
 
-Please read https://github.com/PrismarineJS/prismarine-contribute
+Open Minecraft 26.2 and GAME LAB issues or pull requests in the
+[Complexity-ML repository](https://github.com/Complexity-ML/node-minecraft-protocol-26.2).
+This distribution is maintained independently from PrismarineJS.
 
 ## History
 
