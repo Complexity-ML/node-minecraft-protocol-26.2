@@ -184,7 +184,8 @@ module.exports = function (client, server, options) {
     client.write('success', {
       uuid: client.uuid,
       username: client.username,
-      properties: []
+      properties: [],
+      sessionId: crypto.randomUUID()
     })
     if (client.supportFeature('hasConfigurationState')) {
       client.once('login_acknowledged', onClientLoginAck)

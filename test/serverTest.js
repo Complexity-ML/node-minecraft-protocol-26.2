@@ -510,8 +510,11 @@ for (const supportedVersion of mc.supportedVersions) {
           assert.strictEqual(reason, 'ServerShutdown')
         })
         client.write('login', loginPacket(client, server))
+        const timePacket = version.minecraftVersion === '26.2'
+          ? { gameTime: 1, clockUpdates: [{ id: 0, ticks: 2, partialTick: 0, rate: 1 }] }
+          : { age: 1, time: 2 }
         client.writeBundle([
-          ['update_time', { age: 1, time: 2 }],
+          ['update_time', timePacket],
           ['close_window', { windowId: 0 }]
         ])
       })

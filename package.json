@@ -1,12 +1,12 @@
 {
   "name": "minecraft-protocol",
-  "version": "1.66.2",
+  "version": "1.66.2+complexity.26.2.0",
   "description": "Parse and serialize minecraft packets, plus authentication and encryption.",
   "main": "src/index.js",
   "types": "src/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git://github.com/PrismarineJS/node-minecraft-protocol.git"
+    "url": "https://github.com/Complexity-ML/node-minecraft-protocol-26.2.git"
   },
   "scripts": {
     "test": "npm run mochaTest",
@@ -52,7 +52,7 @@
     "debug": "^4.3.2",
     "endian-toggle": "^0.0.0",
     "lodash.merge": "^4.3.0",
-    "minecraft-data": "^3.78.0",
+    "minecraft-data": "https://github.com/Complexity-ML/node-minecraft-data-26.2/releases/download/complexity-26.2.2/minecraft-data-complexity-26.2.2.tgz",
     "minecraft-folder-path": "^1.2.0",
     "node-fetch": "^2.6.1",
     "node-rsa": "^0.4.2",
