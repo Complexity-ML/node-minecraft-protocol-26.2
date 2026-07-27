@@ -70,6 +70,29 @@ const nbtValue = {
 }
 
 function getFixedPacketPayload (version, packetName) {
+  if (packetName === 'explosion' && version.minecraftVersion === '26.2') {
+    return {
+      center: { x: 12, y: 64, z: -8 },
+      radius: 4,
+      blockCount: 3,
+      playerKnockback: undefined,
+      explosionParticle: { type: 'explosion' },
+      sound: { soundId: 1 },
+      blockParticles: [
+        {
+          data: {
+            particle: {
+              type: 'geyser_base',
+              data: { waterBlocks: 3, burstImpulseBase: 0.75 }
+            },
+            scaling: 1,
+            speed: 0.5
+          },
+          weight: 2
+        }
+      ]
+    }
+  }
   if (packetName === 'teams') {
     if (version['>=']('1.21.6')) {
       return {
