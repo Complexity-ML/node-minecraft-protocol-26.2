@@ -6,12 +6,12 @@ Standalone protocol 776 implementation for Minecraft Java 26.2, maintained by
 
 | Package | Runtime | Minecraft Java | Protocol |
 | --- | --- | --- | --- |
-| `minecraft-protocol@1.66.2+complexity.26.2.1` | Node.js 22+ | 26.2 | 776 |
+| `minecraft-protocol@1.66.2+complexity.26.2.2` | Node.js 22+ | 26.2 | 776 |
 
 ## Install
 
 ```bash
-npm install "https://github.com/Complexity-ML/node-minecraft-protocol-26.2/releases/download/complexity-26.2.1/minecraft-protocol-complexity-26.2.1.tgz"
+npm install "https://github.com/Complexity-ML/node-minecraft-protocol-26.2/releases/download/complexity-26.2.2/minecraft-protocol-complexity-26.2.2.tgz"
 ```
 
 The release pins the standalone
@@ -46,6 +46,7 @@ authorized to automate.
 - world-clock updates;
 - corrected 26.2 entity metadata serializers;
 - corrected advancement icon item-stack templates;
+- corrected 26.2 data-component registry IDs;
 - client and server serialization;
 - online and offline authentication paths.
 

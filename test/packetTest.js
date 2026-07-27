@@ -41,6 +41,20 @@ const slotValue = {
   removeComponents: []
 }
 
+const itemStackTemplateValue = {
+  itemId: 1111,
+  itemCount: 1,
+  templateAddedComponentCount: 1,
+  templateRemovedComponentCount: 0,
+  components: [{
+    type: 'pot_decorations',
+    data: {
+      decorations: [1054, 1488, 1054, 1484]
+    }
+  }],
+  removeComponents: []
+}
+
 const nbtValue = {
   type: 'compound',
   name: 'test',
@@ -241,7 +255,7 @@ const values = {
   f32: -333.444,
   slot: slotValue,
   Slot: slotValue,
-  ItemStackTemplate: slotValue,
+  ItemStackTemplate: itemStackTemplateValue,
   UntrustedSlot: slotValue,
   HashedSlot: slotValue,
   SlotComponent: {
