@@ -7,7 +7,7 @@ encryption and compression for the GAME LAB runtime.
 Install the immutable release asset:
 
 ```bash
-npm install "https://github.com/Complexity-ML/node-minecraft-protocol-26.2/releases/download/complexity-26.2.0/minecraft-protocol-complexity-26.2.0.tgz"
+npm install "https://github.com/Complexity-ML/node-minecraft-protocol-26.2/releases/download/complexity-26.2.1/minecraft-protocol-complexity-26.2.1.tgz"
 ```
 
 ## Features
@@ -67,7 +67,7 @@ node-minecraft-protocol is pluggable.
 ## Installation
 
 ```bash
-npm install "https://github.com/Complexity-ML/node-minecraft-protocol-26.2/releases/download/complexity-26.2.0/minecraft-protocol-complexity-26.2.0.tgz"
+npm install "https://github.com/Complexity-ML/node-minecraft-protocol-26.2/releases/download/complexity-26.2.1/minecraft-protocol-complexity-26.2.1.tgz"
 ```
 
 ## Documentation

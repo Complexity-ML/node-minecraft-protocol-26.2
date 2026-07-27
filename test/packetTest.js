@@ -241,6 +241,7 @@ const values = {
   f32: -333.444,
   slot: slotValue,
   Slot: slotValue,
+  ItemStackTemplate: slotValue,
   UntrustedSlot: slotValue,
   HashedSlot: slotValue,
   SlotComponent: {
