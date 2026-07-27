@@ -54,7 +54,7 @@
     "lodash.merge": "^4.3.0",
     "minecraft-data": "https://github.com/Complexity-ML/node-minecraft-data-26.2/releases/download/complexity-26.2.5/minecraft-data-complexity-26.2.5.tgz",
     "minecraft-folder-path": "^1.2.0",
-    "node-fetch": "^2.6.1",
+    "node-fetch": "^3.3.2",
     "node-rsa": "^0.4.2",
     "prismarine-auth": "^3.1.1",
     "prismarine-chat": "^1.10.0",
